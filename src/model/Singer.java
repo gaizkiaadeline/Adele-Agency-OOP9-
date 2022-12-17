@@ -9,6 +9,8 @@ public class Singer extends Agency implements Singing {
 		// TODO Auto-generated constructor stub
 	}
 
+//	meng-override abstract method yg ada pada class Singing (interface)
+//	dan kita isi body nya sesuai yang diinginkan
 	@Override
 	public void concert() {
 		
