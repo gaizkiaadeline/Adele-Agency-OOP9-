@@ -8,6 +8,8 @@ public class Comedian extends Agency implements Joking{
 		super(iD, name, gender, age, artistType, popularityRank);
 	}
 
+//	meng-override abstract method yg ada pada class Acting (interface)
+//	dan kita isi body nya sesuai yang diinginkan
 	@Override
 	public void standUpComedy() {
 		System.out.println(this.getName() + " is doing a stand-up comedy");
@@ -27,6 +29,4 @@ public class Comedian extends Agency implements Joking{
 	public void punchLine() {
 		System.out.println(this.getName() + " made a punch line in today's show");
 	}
-
-
 }
