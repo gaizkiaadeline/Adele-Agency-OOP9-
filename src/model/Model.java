@@ -30,6 +30,8 @@ public class Model extends Agency implements Modeling{
 		this.weight = weight;
 	}
 
+//	meng-override abstract method yg ada pada class Modelling (interface)
+//	dan kita isi body nya sesuai yang diinginkan
 	@Override
 	public void fashionShow() {
 
