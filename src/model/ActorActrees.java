@@ -30,6 +30,8 @@ public class ActorActrees extends Agency implements Acting {
 		this.weight = weight;
 	}
 
+//	meng-override abstract method yg ada pada class Acting (interface)
+//	dan kita isi body nya sesuai yang diinginkan
 	@Override
 	public void filmingMovie() {
 
@@ -47,6 +49,4 @@ public class ActorActrees extends Agency implements Acting {
 
 		System.out.println(this.getName() + " is practicing the script with co-worker");
 	}
-	
-	
 }
